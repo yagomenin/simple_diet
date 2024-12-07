@@ -1,7 +1,5 @@
 # simple_diet
 
-A new Flutter project.
-
-## Getting Started
+Um projeto de App de Dietas em Flutter.
 
 Link do vídeo do app -> 
