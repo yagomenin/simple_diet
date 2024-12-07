@@ -7,6 +7,7 @@ import 'package:simple_diet/screens/list_food_screen/list_food_screen.dart';
 
 import 'AlertDialog/cubit_calorias.dart';
 
+
 void main() {
   runApp(
     BlocProvider(
@@ -16,7 +17,10 @@ void main() {
   );
 }
 
+
+
 class MyApp extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

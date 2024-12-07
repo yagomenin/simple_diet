@@ -4,6 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:simple_diet/retrofit/food_api.dart';
+import '../../PlataformChannel/services.dart';
 import '../../model/food.dart';
 
 class ListFoodsScreen extends StatefulWidget {
@@ -55,6 +56,7 @@ class _ListFoodsScreenState extends State<ListFoodsScreen> {
   void initState() {
     super.initState();
     alimentosList = fetchFoods();
+    BatteryService().checkBatteryLevel();
   }
 
   @override
